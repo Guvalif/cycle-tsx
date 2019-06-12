@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "module": "commonjs",
+    "lib": [ "dom", "es2015" ],
+    "target": "es5",
+    "jsx": "react",
+    "reactNamespace": "JSX"
+  }
+}
