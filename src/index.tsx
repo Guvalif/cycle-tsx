@@ -1,8 +1,7 @@
 import { Stream } from 'xstream';
 import { run } from '@cycle/run';
 import { DOMSource, makeDOMDriver, VNode } from '@cycle/dom';
-
-const JSX = { createElement: require('snabbdom-jsx').html };
+import { html } from 'snabbdom-jsx';
 
 
 type Sources = {
